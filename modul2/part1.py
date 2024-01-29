@@ -18,3 +18,9 @@ print('Formatted String:', result)
 str1 = 'hello world'
 result = str1.center(30, '#')
 print('Center String:', result)
+
+# Print triangle using center method
+
+print("/\\".center(10))
+print("/  \\".center(10))
+print("/____\\".center(10))
